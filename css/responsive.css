@@ -1,0 +1,142 @@
+/* XL Device :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero-area-contant h1 {
+        font-size: 50px;
+    }
+    .animated-background {
+        width: 460px;
+        height: 460px;
+        bottom: 0;
+    }
+    .hero-area {
+        min-height: 558px;
+    }
+    .hero-img {
+        top: 30px;
+        margin-right: 46px;
+    }
+    .section-title h2 {
+        font-size: 60px;
+    }
+    .owl-nav {
+        display: none;
+    }
+}
+
+
+/* MD Device :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        margin-top: 20px;
+    }
+    .mobile-menu.mean-container {
+        margin-top: -18px;
+    }
+    .hero-area-contant p {
+        width: 600px;
+    }
+    .job-title h3 {
+        text-align: left;
+        margin-top: 20px;
+    }
+    .owl-nav {
+        display: none;
+    }
+}
+
+
+/* Extra small Device. */
+
+@media (max-width: 767px) {
+    .hero-area {
+        padding-left: 15px;
+    }
+    .logo img {
+        width: 200px;
+        margin-top: 24px;
+    }
+    .mobile-menu.mean-container {
+        margin-top: -18px;
+    }
+    .hero-area-contant h1 {
+        font-size: 35px;
+    }
+    .section-title h2 {
+        font-size: 40px;
+    }
+    .section-title {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .abou-me-content {
+        margin: 0 15px;
+    }
+    .btn {
+        margin-bottom: 20px;
+    }
+    .progressber-area {
+        margin: 0 15px;
+    }
+    .portfolio-menu {
+        display: none;
+    }
+    .owl-nav {
+        display: none;
+    }
+    .client-img img {
+        width: 60px !important;
+        margin-bottom: 20px;
+    }
+    .footer-logo-area {
+        padding: 0 15px;
+    }
+    .footer-heading {
+        padding: 0 15px;
+    }
+    .footer-info-area {
+        padding: 0 15px;
+    }
+}
+
+
+/* SM Small Device :550px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+
+/* retina query */
+
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),
+only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),
+only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),
+only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),
+only screen and (min-resolution:192dpi) and (max-width:991.98px),
+only screen and (min-resolution:2dppx) and (max-width:991.98px) {
+    .logo .standard-logo {
+        display: none;
+    }
+    .logo .retina-logo {
+        display: inline-block;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),
+only screen and (min--moz-device-pixel-ratio:2),
+only screen and (-o-min-device-pixel-ratio:2/1),
+only screen and (min-device-pixel-ratio:2),
+only screen and (min-resolution:192dpi),
+only screen and (min-resolution:2dppx) {
+    .logo .standard-logo {
+        display: none;
+    }
+    .logo .retina-logo {
+        display: inline-block;
+    }
+}
